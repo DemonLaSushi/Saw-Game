@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Play Tris</title>
+        <link rel="stylesheet" href="style1note.css">
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device=width,initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        
+    </head>
+    <body class="background">
+        <video autoplay muted loop id="myVideo">
+            <source src="doc/img/static1.mp4" type="video/mp4">
+        </video>
+        
+
+        <div class="content">
+
+            <table id="header">
+                <tr>
+                    <td>
+                        <img src="doc/img/Saw-gif.gif" alt="Ups... nada" class="saw">
+                    </td>
+                    <td >
+                        <h1 class="title">Let's PLAY: Tris</h1>
+                        <section>
+                            <div class="tic-tac-toe">
+                                <div class="row">
+                                <div class="cell" data-cell="0-0"></div>
+                                <div class="cell" data-cell="0-1"></div>
+                                <div class="cell" data-cell="0-2"></div>
+                            </div>
+
+                            <div class="row">
+                                <div class="cell" data-cell="1-0"></div>
+                                <div class="cell" data-cell="1-1"></div>
+                                <div class="cell" data-cell="1-2"></div>
+                            </div>
+                            <div class="row">
+                                <div class="cell" data-cell="2-0"></div>
+                                <div class="cell" data-cell="2-1"></div>
+                                <div class="cell" data-cell="2-2"></div>
+                            </div>
+
+                            </div>
+                            <button class = "reload" TYPE=”button” onClick=history.go(0)>Rigioca</button>   
+                        </section>
+                        <script src="script1note.js"></script>
+                    </td>
+                </tr>
+                
+
+            </table >
+
+                <a href="menu.html">
+                    <img  src="doc/img/arrow-red-l.png" alt="Menu" height=3%; width="3%">
+                </a>
+        </div>
+    </body>
+</html>

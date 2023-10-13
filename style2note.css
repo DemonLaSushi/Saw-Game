@@ -1,0 +1,150 @@
+
+.html {
+
+  width: 100%;
+}
+@font-face {
+  font-family: sawFont;
+  src: url(doc/font/SAWesome.ttf);
+}
+
+.header{
+  height: 5%;
+  width: 100%;
+
+}
+
+.background{
+  background-image: url(doc/img/paper.jpg);
+  background-repeat: auto;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.title{
+  align-items: center;
+  color: rgba(146, 8, 8);
+  background-color: transparent;
+  margin: 3px;
+  padding: 45px;
+  font-size: 500%;
+  font-family: sawFont;
+  }
+
+.content {
+    
+    color: #000000;
+    width: auto;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 20px;
+  }
+
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+  }
+
+/* Variabes */
+
+body {
+  background-image: url(doc/img/paper.jpg);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:white;
+  height:100%;
+  text-align:center;
+  font-size:18px;
+}
+
+.wrapper{
+  font-family: sawFont;
+}
+
+canvas{
+  color:rgb(0, 0, 0);
+  border: rgb(114, 13, 13) dashed 4px;
+  padding:15px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+   margin:5px 0;
+}
+
+h1 {
+	font-size: 2.6em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+p{
+  font-size: 1.6em;
+}
+
+#alphabet {
+  margin:15px auto;
+  padding:2px;
+  max-width:900px;
+}
+
+#alphabet li {
+  float:left;
+  margin: 0 10px 10px 0;
+  list-style:none;
+  width:35px;
+  height:30px;
+  padding-top:10px;
+  background:rgb(117, 17, 17);
+  color:base-color;
+  cursor:pointer;
+  border: solid 1px rgb(113, 72, 72);
+}
+
+#my-word {
+  margin: 0;
+  display: block;
+  padding: 0;
+  display:block;
+}
+
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size:1.6em;
+}
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  background: rgb(89, 10, 10);
+  border: solid 2px rgb(108, 66, 66);
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
+.reload {
+  color: white;
+}
+
+
+ 

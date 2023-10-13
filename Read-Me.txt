@@ -1,0 +1,8 @@
+-------------------------
+Per visualizzare il progrtto avviare da Menu.html
+And play the game
+-------------------------
+Pregherei di cacertarsi che la risoluzione o zoom del Browser
+sia a 100% potrebbe interferire con l'aspetto
+della pagina
+
